@@ -209,5 +209,10 @@
     "address": "0xE919F65739c26a42616b7b8eedC6b5524d1e3aC4",
     "name": "Optics WETH",
     "symbol": "WETH"
+  },
+  {
+    "address": "0xE9C453699C44508AD23da29DE857CE6495e39624",
+    "name": "CroSwap",
+    "symbol": "cSWAP"
   }
 ]
