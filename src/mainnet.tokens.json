@@ -84,6 +84,11 @@
     "symbol": "pEUR"
   },
   {
+    "address": "0x5F6bbFE60D2d65DE231ABb80fDBc8C154981b33d",
+    "name": "CroSwap",
+    "symbol": "cSWAP"
+  },
+  {
     "address": "0x64dEFa3544c695db8c535D289d843a189aa26b98",
     "name": "Moola cUSD DEPRECATED",
     "symbol": "mcUSDxOLD"
@@ -209,10 +214,5 @@
     "address": "0xE919F65739c26a42616b7b8eedC6b5524d1e3aC4",
     "name": "Optics WETH",
     "symbol": "WETH"
-  },
-  {
-    "address": "0xE9C453699C44508AD23da29DE857CE6495e39624",
-    "name": "CroSwap",
-    "symbol": "cSWAP"
   }
 ]

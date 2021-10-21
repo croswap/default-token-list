@@ -2,7 +2,7 @@
   "name": "Unknown List",
   "logoURI": "https://raw.githubusercontent.com/croswap/default-token-list/master/logo.svg",
   "keywords": ["celo", "croswap", "defi"],
-  "timestamp": "2021-10-21T08:50:48.536Z",
+  "timestamp": "2021-10-21T10:41:48.514Z",
   "tokens": [
     {
       "address": "0x00400FcbF0816bebB94654259de7273f4A05c762",
@@ -277,6 +277,14 @@
       "logoURI": "https://raw.githubusercontent.com/croswap/default-token-list/master/assets/asset_pEUR.png"
     },
     {
+      "address": "0x5F6bbFE60D2d65DE231ABb80fDBc8C154981b33d",
+      "name": "CroSwap",
+      "symbol": "cSWAP",
+      "chainId": 42220,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/croswap/default-token-list/master/assets/asset_cSWAP.png"
+    },
+    {
       "address": "0x64dEFa3544c695db8c535D289d843a189aa26b98",
       "name": "Moola cUSD DEPRECATED",
       "symbol": "mcUSDxOLD",
@@ -467,14 +475,6 @@
       "chainId": 42220,
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/croswap/default-token-list/master/assets/asset_WETH.png"
-    },
-    {
-      "address": "0xE9C453699C44508AD23da29DE857CE6495e39624",
-      "name": "CroSwap",
-      "symbol": "cSWAP",
-      "chainId": 42220,
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/croswap/default-token-list/master/assets/asset_cSWAP.png"
     }
   ],
   "version": {
