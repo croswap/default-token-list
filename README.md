@@ -1,10 +1,10 @@
-# Ubeswap Token List
+# CroSwap Token List
 
-Official token list of [Ubeswap](https://ubeswap.org).
+Official token list of [CroSwap](https://CroSwap.org).
 
 ## Contributing
 
-To add a token to Ubeswap:
+To add a token to CroSwap:
 
 1. Install dependencies via `yarn install`. Note: you must be on Node.js 14.x or later to do this.
 2. Add your token's logo to `assets/`
