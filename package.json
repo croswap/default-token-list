@@ -4,7 +4,6 @@
   "description": "CroSwap default token list",
   "main": "croswap.token-list.json",
   "repository": "git@github.com:croswap/default-token-list.git",
-  "author": "Ian Macalinao <ian@ubeswap.org>",
   "license": "MIT",
   "devDependencies": {
     "@ethersproject/address": "^5.4.0",
