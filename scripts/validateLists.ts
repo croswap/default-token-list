@@ -1,5 +1,5 @@
-import ubeswapList from "../ubeswap.token-list.json";
-import ubeswapExperimentalList from "../ubeswap-experimental.token-list.json";
+import ubeswapList from "../croswap.token-list.json";
+import ubeswapExperimentalList from "../croswap-experimental.token-list.json";
 import { TokenList } from "@uniswap/token-lists";
 import schema from "@uniswap/token-lists/src/tokenlist.schema.json";
 import Ajv, { Schema } from "ajv";

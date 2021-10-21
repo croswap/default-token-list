@@ -9,7 +9,7 @@ import { requireOrNull } from "./utils/requireOrNull";
 const version = packageJSON.version.split(".");
 
 const LOGO_URI_BASE =
-  "https://raw.githubusercontent.com/ubeswap/default-token-list/master";
+  "https://raw.githubusercontent.com/croswap/default-token-list/master";
 
 const makeTokenList = (
   previousTokenList: TokenList | null,
@@ -26,7 +26,7 @@ const makeTokenList = (
   return {
     name: previousTokenList?.name ?? "Unknown List",
     logoURI: `${LOGO_URI_BASE}/logo.svg`,
-    keywords: ["celo", "ubeswap", "defi"],
+    keywords: ["celo", "croswap", "defi"],
     timestamp,
     tokens,
     version: {
@@ -82,11 +82,11 @@ const main = async () => {
 
   const previousTokenList = requireOrNull(
     __dirname,
-    "../ubeswap.token-list.json"
+    "../croswap.token-list.json"
   );
   const previousExperimentalTokenList = requireOrNull(
     __dirname,
-    "../ubeswap-experimental.token-list.json"
+    "../croswap-experimental.token-list.json"
   );
 
   const tokenList = makeTokenList(previousTokenList, mainTokenListTokens);
@@ -96,12 +96,12 @@ const main = async () => {
   );
 
   await fs.writeFile(
-    __dirname + "/../ubeswap.token-list.json",
+    __dirname + "/../croswap.token-list.json",
     JSON.stringify(tokenList, null, 2)
   );
 
   await fs.writeFile(
-    __dirname + "/../ubeswap-experimental.token-list.json",
+    __dirname + "/../croswap-experimental.token-list.json",
     JSON.stringify(experimentalTokenList, null, 2)
   );
 };

@@ -1,9 +1,9 @@
 {
-  "name": "@ubeswap/default-token-list",
+  "name": "@croswap/default-token-list",
   "version": "4.0.17",
-  "description": "Ubeswap default token list",
-  "main": "ubeswap.token-list.json",
-  "repository": "git@github.com:ubeswap/default-token-list.git",
+  "description": "CroSwap default token list",
+  "main": "croswap.token-list.json",
+  "repository": "git@github.com:croswap/default-token-list.git",
   "author": "Ian Macalinao <ian@ubeswap.org>",
   "license": "MIT",
   "devDependencies": {
@@ -29,8 +29,8 @@
     "prepare": "husky install"
   },
   "files": [
-    "ubeswap.token-list.json",
-    "ubeswap-experimental.token-list.json"
+    "croswap.token-list.json",
+    "croswap-experimental.token-list.json"
   ],
   "prettier": {}
 }
